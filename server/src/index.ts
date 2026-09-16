@@ -7,7 +7,7 @@ import intradayRouter from "./routes/intraday";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001; // default to port 3001
 
 app.use(express.json());
 app.use(cors());
